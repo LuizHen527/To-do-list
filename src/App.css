@@ -1,38 +1,40 @@
+@font-face {
+  font-family: LatoBold;
+  src: url(./assets/Lato/Lato-Bold.ttf);
+}
+
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: #8758FF;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Form CSS */
+
+
+.Form-Container {
+  display: flex;
+  background-color: #1E123B;
+  width: 743.81px;
+  height: 495.36px;
+  border-radius: 7.72px;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Text {
+  margin-top: 40px;
+  font-family: LatoBold;
+  color: #FCFCFC;
+  font-size: 24.69px;
+}
+
+.Text-Purple {
+  color: #8758FF;
+  font-size: 30px;
 }

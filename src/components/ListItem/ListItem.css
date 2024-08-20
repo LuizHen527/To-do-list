@@ -1,0 +1,29 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('../../assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+.list-item-container {
+    display: flex;
+    align-items: center;
+    background-color: #FCFCFC;
+    width: 674px;
+    height: 61px;
+    border-radius: 8px;
+    margin-top: 70px;
+
+}
+
+.list-item-button {
+    width: 27px;
+    height: 27px;
+    border-radius: 4px;
+    border: 1px solid #8758FF;
+    background-color: #BDA4FF;
+}
+
+.list-item-text {
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: 600;
+}
