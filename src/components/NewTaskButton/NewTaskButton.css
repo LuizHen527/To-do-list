@@ -1,0 +1,23 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../../assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.new-task-button {
+    font-family: OpenSans;
+    color: #FCFCFC;
+    font-weight: bold;
+    font-size: 17.7px;
+    width: 201px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    background-color: #6C45CE;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.new-task-container {
+    width: 757px;
+    display: flex;
+    justify-content: end;
+}

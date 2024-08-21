@@ -1,0 +1,69 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../../assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.task-modal-background {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.task-modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 914px;
+    height: 472px;
+    background-color: #1E123B;
+    border-radius: 10px;
+}
+
+.task-modal-title {
+    font-family: OpenSans;
+    font-weight: bold;
+    font-size: 32px;
+    color: #FCFCFC;
+}
+
+.task-modal-title-box {
+    display: flex;
+    background-color: #1E123B;
+    border: #FCFCFC 2px solid;
+    border-radius: 7.72px;
+    height: 42px;
+    width: 577px;
+    color: #FCFCFC;
+    text-align: end;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-modal-title-field {
+    background-color: #1E123B;
+    border: #FCFCFC 2px solid;
+    width: 100%;
+    height: 40px;
+    border-radius: 7.72px;
+    color: #FCFCFC;
+    border: none;
+    padding-left: 12px;
+}
+
+.task-modal-button {
+    font-family: OpenSans;
+    color: #FCFCFC;
+    font-weight: bold;
+    font-size: 20px;
+    width: 322px;
+    height: 68px;
+    border: 2px solid #FFFFFF;
+    background-color: #6C45CE;
+    border-radius: 8px;
+    margin-right: 8px;
+}

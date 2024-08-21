@@ -11,6 +11,8 @@
   background-color: #8758FF;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 17px;
 }
 
 

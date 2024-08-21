@@ -11,19 +11,110 @@
     height: 61px;
     border-radius: 8px;
     margin-top: 70px;
-
+    justify-content: space-between;
 }
 
-.list-item-button {
+.list-item-container-true {
+    display: flex;
+    align-items: center;
+    background-color: #6C45CE;
+    width: 674px;
+    height: 61px;
+    border-radius: 8px;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.list-item-check-box {
     width: 27px;
     height: 27px;
     border-radius: 4px;
     border: 1px solid #8758FF;
     background-color: #BDA4FF;
+    margin-left: 16px;
+}
+
+.list-item-check-box-true {
+    width: 27px;
+    height: 27px;
+    border-radius: 4px;
+    border: none;
+    background-image: url(../../assets/icons/list-item-icon-done.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1E123B;
+    margin-left: 16px;
 }
 
 .list-item-text {
     font-family: OpenSans;
     font-size: 15px;
     font-weight: 600;
+    margin-left: 15px;
+}
+
+.list-item-text-true {
+    font-family: OpenSans;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.list-item-button-delete {
+    background-image: url(../../assets/icons/list-item-icon-x.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 23px;
+    width: 33px;
+    height: 33px;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.list-item-button-delete-true {
+    background-image: url(../../assets/icons/list-item-icon-x-true.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    width: 33px;
+    height: 33px;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.list-item-button-update {
+    background-image: url(../../assets/icons/list-item-icon-update.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 23px;
+    width: 33px;
+    height: 33px;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-right: 13px;
+}
+
+.list-item-button-update-true {
+    background-image: url(../../assets/icons/list-item-icon-update-true.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px;
+    width: 33px;
+    height: 33px;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-right: 13px;
+}
+
+.list-item-button-div {
+}
+
+.list-item-task-div {
+    display: flex;
+    align-items: center;
 }
